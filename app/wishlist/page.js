@@ -1,5 +1,9 @@
 import Wishlist from "@/views/wishlist/index";
 
-export default function () {
+function WishlistComponent() {
   return <Wishlist />;
 }
+
+WishlistComponent.displayName = "WishlistComponent";
+
+export default WishlistComponent;
