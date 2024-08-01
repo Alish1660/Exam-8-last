@@ -1,5 +1,9 @@
 import Delivery from "@/views/delivery/index";
 
-export default function () {
+function DeliveryComponent() {
   return <Delivery />;
 }
+
+DeliveryComponent.displayName = "DeliveryComponent";
+
+export default DeliveryComponent;

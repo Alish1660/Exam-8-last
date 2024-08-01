@@ -1,5 +1,9 @@
 import About from "@/views/about/index";
 
-export default function () {
+function AboutComponent() {
   return <About />;
 }
+
+AboutComponent.displayName = "AboutComponent";
+
+export default AboutComponent;

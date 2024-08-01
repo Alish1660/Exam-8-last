@@ -1,5 +1,9 @@
 import SignIn from "@/views/sign-in/index";
 
-export default function () {
+function SignInComponent() {
   return <SignIn />;
 }
+
+SignInComponent.displayName = "SignInComponent";
+
+export default SignInComponent;

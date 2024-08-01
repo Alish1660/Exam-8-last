@@ -1,5 +1,9 @@
 import Basket from "@/views/basket/index";
 
-export default function () {
+function BasketComponent() {
   return <Basket />;
 }
+
+BasketComponent.displayName = "BasketComponent";
+
+export default BasketComponent;
